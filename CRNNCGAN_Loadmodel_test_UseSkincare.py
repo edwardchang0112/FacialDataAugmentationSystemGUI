@@ -583,31 +583,4 @@ def load_trained_CGAN_model(window_size):
     #saver.restore(sess, 'Trained_CGAN/model-499000')
     return sess, G_sample
 
-if __name__ == '__main__':
-
-    window_size = 15
-    sess, G_sample = load_trained_CGAN_model(window_size)
-    #sess = tf.Session()
-    '''restore model'''
-    #saver = tf.train.Saver(var_list=tf.global_variables(), max_to_keep=20)  # 模型的保存器
-    saver = tf.train.import_meta_graph('Trained_CGAN/model-499000.meta')
-    saver.restore(sess, 'Trained_CGAN/model-499000')
-    #sess.run(tf.global_variables_initializer())
-
-    start_file_name_No = '001'
-    n_sample = 100
-    Age = 35
-    # For Taiwan
-    #logitude = 121
-    #latitude = 25
-    date_year = '2020'
-    date_month = '01'
-    date_day = '01'
-    generate_new_user_data(sess, G_sample, start_file_name_No, n_sample, window_size, Age, date_year, date_month, date_day)
-
-    weather_file_name = 'Weather_Data_FID_Test'
-    #generate_FID_test_user_data(sess, G_sample, start_file_name_No, n_sample, window_size, Age, weather_file_name)
-
-    date_day = '16'
-    generate_existing_user_data(sess, G_sample,'Generated_User_Data/GUser_001.xlsx', window_size, date_year, date_month, date_day)
 
