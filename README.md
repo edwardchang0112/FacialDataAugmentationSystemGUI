@@ -26,4 +26,4 @@ Remember that the PATH of all of the following step need to be changed to fit yo
   (c) Prediction Days: The numbers of data that generated for the user. For now, please enter 15.
   (d) Start Date (YYYY-MM-DD)
 
-### All the project just provide you and basic structure, you need to make some changes to fit your applications.
+### All the project just provide you a basic structure, you need to make some changes to fit your applications.
