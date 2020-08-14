@@ -17,7 +17,7 @@ Remember that the PATH of all of the following step need to be changed to fit yo
 2. Load Weahter Info.: Press "Browse  Weahter File" to load the weather that you just dowload from https://e-service.cwb.gov.tw/HistoryDataQuery/index.jsp, then press the button "Load Weahter Info."
 3. 
 
-  (a) First Gen. File No.: Type the user No. you want, but make it in 3-number format (1:001, 10:, 010, ...)
+  (a) First Gen. File No.: Type the user No. you want, but make it in 3-number format (1:001, 10: 010, ...)
   
   (b) Numbers of Gen. File: Type the number of users with data that you want to generate.
   
