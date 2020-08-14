@@ -16,14 +16,23 @@ Remember that the PATH of all of the following step need to be changed to fit yo
 1. Load Trained Model: Press "Browse Trained Model" to load your pre-trained model, then press the button "Load Trained Model"
 2. Load Weahter Info.: Press "Browse  Weahter File" to load the weather that you just dowload from https://e-service.cwb.gov.tw/HistoryDataQuery/index.jsp, then press the button "Load Weahter Info."
 3. 
+
   (a) First Gen. File No.: Type the user No. you want, but make it in 3-number format (1:001, 10:, 010, ...)
+  
   (b) Numbers of Gen. File: Type the number of users with data that you want to generate.
+  
   (c) Prediction Days: The numbers of data that generated for 1 user. For now, please enter 15.
+  
   (d) Start Date (YYYY-MM-DD)
+  
   Then press "Start Generating New File"
+  
 4. Based on the existing user to extend the data, so don't delete or make any changes on the file "User_No_Code_Table.xlsx"
+
   (a) Choose one existing file: Choose one existing file generating from step 3.
-  (c) Prediction Days: The numbers of data that generated for the user. For now, please enter 15.
-  (d) Start Date (YYYY-MM-DD)
+  
+  (b) Prediction Days: The numbers of data that generated for the user. For now, please enter 15.
+  
+  (c) Start Date (YYYY-MM-DD)
 
 ### All the project just provide you a basic structure, you need to make some changes to fit your applications.
