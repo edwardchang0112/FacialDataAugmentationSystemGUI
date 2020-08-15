@@ -1,5 +1,5 @@
 # FacialDataAugmentationSystemGUI
-In this project, there is a GUI interface that make you can do facial data augmentation based on pre-trained GAN model and weather information, in order to produce more qualified data for trainning ML/AI model. The following figure shows you how the GUI looks like.
+In this project, there is a GUI interface that make you can do facial data augmentation based on pre-trained GAN model and weather information, in order to produce more qualified data for training ML/AI model. The following figure shows you how the GUI looks like.
 
 ![image](https://github.com/edwardchang0112/FacialDataAugmentationSystemGUI/blob/master/GUI_Fig.png)
 
